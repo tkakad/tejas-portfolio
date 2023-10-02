@@ -1,18 +1,103 @@
+/* Color Palette: https://colorhunt.co/palette/f8f0e5eadbc8dac0a3102c57 */
+
 body {
-  background-color: #F8F0E5;
   /* Rich white: #F1F0EB, Color hunt: #F8F0E5,  */
-  margin: 0;
-  padding: 0;
+  background-color: #F8F0E5;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+footer{
+  background-color: #102C57;
+  color: white;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 5rem;
+  text-align: center;
+  width: 100%;
 }
 
 nav{
   margin: 2rem 4rem;
 }
 
+.contact {
+  background-color: #DAC0A3;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 10rem;
+}
+
+.edu-img {
+  border-radius: 25px;
+  margin: auto;
+  width: 60rem;
+}
+
+.education{
+  background-color: #EADBC8;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.experience {
+  background-color: #EADBC8;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.heading {
+  font-family: 'Merriweather', serif;
+  padding-bottom: 5rem;
+}
+
+.intro {
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  margin: 5rem auto;
+  width: 100%;
+}
+
+.intro-sub {
+  border-style: solid;
+  height: 500px;
+  width: 500px;
+  border-radius: 25px;
+  background-color: #e0e0e0;
+}
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   margin-left: 0.7rem;
+}
+
+.skills {
+  background-color: #F8F0E5;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 5rem;
+  text-align: center;
+  width: 100%;
 }
 
 .tejas-logo {
