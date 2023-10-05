@@ -24,11 +24,6 @@ p {
   text-align: justify;
 }
 
-td{
-  font-family: 'Montserrat', sans-serif;
-  padding: 1rem 3rem;
-}
-
 .btn-download {
   background-color: transparent; 
   border: 2px solid #D1BBA1; /* Light brown border to complement the background */
@@ -88,7 +83,6 @@ td{
   gap: 10rem;
   justify-content: center;
   padding-bottom: 5rem;
-  padding-top: 3rem;
   text-align: center;
 }
 
@@ -186,16 +180,8 @@ td{
 
 .heading {
   font-family: 'Merriweather', serif;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
-
-/* .intro-sub {
-  border-style: solid;
-  height: 500px;
-  width: 500px;
-  border-radius: 25px;
-  background-color: #e0e0e0;
-} */
 
 .intro-img {
   border-radius: 5px;
@@ -207,23 +193,48 @@ td{
   display: none;
   gap: 0;
   justify-content: none;
+  padding-top: 2rem;
   text-align: center;
 }
 
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  margin-left: 0.7rem;
 }
 
 .skills {
   background-color: #F8F0E5;
+  font-family: 'Montserrat', sans-serif;
   height: 100%;
   justify-content: center;
   margin: auto;
   padding: 5rem;
   text-align: center;
   width: 100%;
+}
+
+.skills-table {
+  border-collapse: separate;
+  border-spacing: 30px 15px;  
+  /* font-weight: 600; */
+}
+
+.skills-table td {
+  background-color: #F8F0E5;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 60px;  /* Set fixed height for each box */
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  width: 10rem;  /* Set fixed width for each box */
+}
+
+.skills-table td:hover {
+  background-color: #e1d6c1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
 }
 
 .tejas-logo {
@@ -233,6 +244,6 @@ td{
 
 @media (min-width: 992px) {  
   .nav-link {
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
 }
