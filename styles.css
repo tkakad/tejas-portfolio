@@ -20,8 +20,13 @@ footer{
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
   text-align: justify;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
 }
 
 .btn-download {
@@ -50,7 +55,7 @@ p {
 }
 
 .cert-img {
-  width: 60%;
+  width: 80%;
 }
 
 .certification {
@@ -58,7 +63,8 @@ p {
   height: 100%;
   justify-content: center;
   margin: auto;
-  padding: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
   width: 100%;
 }
@@ -68,7 +74,8 @@ p {
   height: 100%;
   justify-content: center;
   margin: auto;
-  padding: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
   width: 100%;
 }
@@ -82,24 +89,21 @@ p {
   display: flex;
   gap: 10rem;
   justify-content: center;
-  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
 }
 
 .download {
-  padding-top: 4rem;
+  padding: 4rem;
 }
 
-.edu-description {
-  /* font-size: 1.1rem; */
-  margin: auto 3rem;
+.description {
+  margin: auto 1.5rem;
   text-align: justify;
 }
 
 .edu-img {
-  border-radius: 25px;
-  margin: auto;
-  width: 65%;
+  width: 55%;
 }
 
 .education{
@@ -107,15 +111,16 @@ p {
   height: 100%;
   justify-content: center;
   margin: auto;
-  padding: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
   width: 100%;
 }
 
 .emp-img {
-  border-radius: 10px;
+  border-radius: 5px;
   margin: auto;
-  width: 70%;
+  width: 80%;
 }
 
 .employment{
@@ -123,24 +128,22 @@ p {
   height: 100%;
   justify-content: center;
   margin: auto;
-  padding: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
   width: 100%;
 }
 
-.experience {
+.project {
   background-color: #EADBC8;
   height: 100%;
   justify-content: center;
   margin: auto;
-  padding: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
   width: 100%;
 }
-
-/* .footer-contacts {
-  width: 80%;
-} */
 
 .footer-copyright {
   color: #A9B4C2;
@@ -150,7 +153,7 @@ p {
 .footer-links {
   color: white;             /* White text color */
   font-family: 'Montserrat', sans-serif;
-  margin: auto 4rem;
+  margin: auto 2rem;
   position: relative;       /* Relative positioning to add pseudo-elements if needed */
   text-decoration: none;    /* Removes the default underline */
   transition: color 0.3s;   /* Smooth transition for color changes */
@@ -178,15 +181,14 @@ p {
   color: rgba(255, 255, 255, 0.5);  /* More translucent white for an active (clicked) state for additional contrast */
 }
 
-.heading {
-  font-family: 'Merriweather', serif;
-  padding-bottom: 6rem;
-}
-
 .intro-img {
   border-radius: 5px;
   margin: auto;
   width: 80%;
+}
+
+.intro-description {
+  margin: auto 1.5rem;
 }
 
 .nav-container {
@@ -194,7 +196,6 @@ p {
   gap: 0;
   justify-content: none;
   padding-top: 2rem;
-  text-align: center;
 }
 
 .nav-link {
@@ -208,15 +209,15 @@ p {
   height: 100%;
   justify-content: center;
   margin: auto;
-  padding: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
   width: 100%;
 }
 
 .skills-table {
   border-collapse: separate;
-  border-spacing: 30px 15px;  
-  /* font-weight: 600; */
+  border-spacing: 3rem 1rem;  
 }
 
 .skills-table td {
@@ -237,6 +238,15 @@ p {
   transform: translateY(-3px);
 }
 
+.sub-description {
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 .tejas-logo {
   height: 4.5rem;
   width: 5rem;
@@ -244,6 +254,33 @@ p {
 
 @media (min-width: 992px) {  
   .nav-link {
-    margin-left: 7rem;
+    margin-left: 4.8rem;
+  }
+
+  .footer-links{
+    margin: auto 5rem;
+  }
+}
+
+@media (min-width: 1109px) {  
+  .skills-table {
+    border-collapse: separate;
+    border-spacing: 3rem 1rem;  
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .images {
+    margin-bottom: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.5rem;
   }
 }
