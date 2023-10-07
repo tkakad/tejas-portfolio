@@ -151,7 +151,7 @@ p {
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .form-wrapper {
@@ -162,6 +162,7 @@ p {
 
 /* First and Last Name Inputs Side by Side */
 .name-group {
+  margin-bottom: 1rem;
   display: flex;
   gap: 1rem;
   justify-content: space-between;
@@ -170,29 +171,6 @@ p {
 .name-input {
   margin-bottom: 0;
   width: 48%;
-}
-
-/* Submit Button Styles */
-.submit-btn {
-  background-color: transparent;
-  border: 2px solid #D1BBA1;
-  border-radius: 20px;
-  color: #D1BBA1;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 15px 25px;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-  display: inline-block;
-  cursor: pointer; /* Indicate it's clickable */
-}
-
-.submit-btn:hover,
-.submit-btn:focus {
-  background-color: #D1BBA1;
-  color: #DAC0A3;
-  border-color: #DAC0A3;
-  text-decoration: none;
 }
 
 .heading {
@@ -282,8 +260,8 @@ p {
   border-radius: 20px;
   color: #5C4033; /* Darker text for visibility */
   display: block; /* Will make the button a block element */
-  margin: 1rem auto; /* Centers the button */
   font-family: 'Montserrat', sans-serif;
+  margin: 5rem auto 0; /* Centers the button */
   font-size: 18px;
   font-weight: 500;
   padding: 15px 25px;
@@ -326,15 +304,21 @@ p {
     font-size: 1rem;
   }
 
+  .form-wrapper {
+    width: 65%;
+  }
+
   .images {
     margin-bottom: 2.5rem;
   }
 
   .name-group {
-    flex-wrap: wrap; /* Allow the items to wrap */
+    flex-wrap: wrap;
   }
+
   .name-input {
-      width: 100%;
+    width: 100%;
+    /* margin-bottom: 1rem; */
   }
 
   .sub-heading {
