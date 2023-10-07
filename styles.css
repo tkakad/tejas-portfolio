@@ -1,21 +1,14 @@
 /* Color Palette: https://colorhunt.co/palette/f8f0e5eadbc8dac0a3102c57 */
 
 body {
-  /* Rich white: #F1F0EB, Color hunt: #F8F0E5,  */
   background-color: #F8F0E5;
-  /* margin: 0; */
-  /* padding: 0; */
 }
 
 footer{
   background-color: #102C57;
-  color: white;
-  height: 100%;
-  justify-content: center;
   padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
-  width: 100%;
 }
 
 p {
@@ -25,8 +18,13 @@ p {
   text-align: justify;
 }
 
-h1 {
+.big-headers {
   font-family: 'Merriweather', serif;
+  margin-bottom: 2rem;
+}
+
+.bold-text {
+  font-weight: 500;
 }
 
 .btn-download {
@@ -54,42 +52,24 @@ h1 {
   }
 }
 
-.cert-img {
-  width: 80%;
-}
-
 .certification {
   background-color: #F8F0E5;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
-  width: 100%;
 }
 
 .contact {
   background-color: #DAC0A3;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
-  width: 100%;
-}
-
-.contact-form{
-  margin: auto;
-  width: 60%;
 }
 
 .container {
   display: flex;
-  gap: 10rem;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 4rem;
   text-align: center;
 }
 
@@ -102,47 +82,18 @@ h1 {
   text-align: justify;
 }
 
-.edu-img {
-  width: 55%;
-}
-
 .education{
   background-color: #EADBC8;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
-  width: 100%;
-}
-
-.emp-img {
-  border-radius: 5px;
-  margin: auto;
-  width: 80%;
 }
 
 .employment{
   background-color: #EADBC8;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
-  width: 100%;
-}
-
-.project {
-  background-color: #EADBC8;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-  text-align: center;
-  width: 100%;
 }
 
 .footer-copyright {
@@ -181,14 +132,89 @@ h1 {
   color: rgba(255, 255, 255, 0.5);  /* More translucent white for an active (clicked) state for additional contrast */
 }
 
-.intro-img {
+.form-control {
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  color: #5C4033; /* Slightly darker placeholder text for better visibility */
+  border: 2px solid #5C4033;
+  padding: 10px 15px; 
+  margin-bottom: 20px;
+  width: 100%;
+  transition: border-color 0.3s ease; /* For a smoother transition */
+}
+
+/* Specific styles when any form control is focused */
+.form-control:focus {
+  background-color: transparent;
+  outline: none;
+  border-color: #9B7861; /* Adjust if you want a different color when focused */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-wrapper {
+  width: 50%;
+  padding-top: 3rem; 
+  margin: auto; /* Centers the form in the middle */
+}
+
+/* First and Last Name Inputs Side by Side */
+.name-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.name-input {
+  margin-bottom: 0;
+  width: 48%;
+}
+
+/* Submit Button Styles */
+.submit-btn {
+  background-color: transparent;
+  border: 2px solid #D1BBA1;
+  border-radius: 20px;
+  color: #D1BBA1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 25px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  display: inline-block;
+  cursor: pointer; /* Indicate it's clickable */
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: #D1BBA1;
+  color: #DAC0A3;
+  border-color: #DAC0A3;
+  text-decoration: none;
+}
+
+.heading {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.images {
   border-radius: 5px;
   margin: auto;
   width: 80%;
 }
 
-.intro-description {
-  margin: auto 1.5rem;
+.name-group {
+  display: flex;
+  flex-wrap: nowrap; /* By default, don't allow wrapping */
+  justify-content: space-between;
+}
+
+.name-input {
+  width: 48%;
 }
 
 .nav-container {
@@ -201,18 +227,26 @@ h1 {
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
+  text-align: center;
+}
+
+.project {
+  background-color: #EADBC8;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.rounded-input {
+  border-radius: 7px;
+  border: 1px solid #a89b8e;
 }
 
 .skills {
   background-color: #F8F0E5;
-  font-family: 'Montserrat', sans-serif;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
-  width: 100%;
 }
 
 .skills-table {
@@ -242,9 +276,27 @@ h1 {
   text-align: center;
 }
 
-.sub-heading {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+.submit-btn {
+  background-color: #D1BBA1;
+  border: 2px solid #5C4033; /* Darker border for visibility */
+  border-radius: 20px;
+  color: #5C4033; /* Darker text for visibility */
+  display: block; /* Will make the button a block element */
+  margin: 1rem auto; /* Centers the button */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 25px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  cursor: pointer; /* Hand cursor on hover for better UX */
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: #5C4033; /* Switch background and text colors on hover */
+  color: #D1BBA1;
+  border-color: #D1BBA1;
+  text-decoration: none;
 }
 
 .tejas-logo {
@@ -264,10 +316,8 @@ h1 {
 
 @media (min-width: 1109px) {  
   .skills-table {
-    border-collapse: separate;
-    border-spacing: 3rem 1rem;  
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 }
 
@@ -278,6 +328,13 @@ h1 {
 
   .images {
     margin-bottom: 2.5rem;
+  }
+
+  .name-group {
+    flex-wrap: wrap; /* Allow the items to wrap */
+  }
+  .name-input {
+      width: 100%;
   }
 
   .sub-heading {
