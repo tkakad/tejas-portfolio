@@ -170,7 +170,6 @@ p {
 
 .name-input {
   margin-bottom: 0;
-  width: 48%;
 }
 
 .heading {
@@ -196,9 +195,6 @@ p {
 }
 
 .nav-container {
-  display: none;
-  gap: 0;
-  justify-content: none;
   padding-top: 2rem;
 }
 
@@ -305,7 +301,7 @@ p {
   }
 
   .form-wrapper {
-    width: 65%;
+    width: 70%;
   }
 
   .images {
@@ -318,10 +314,5 @@ p {
 
   .name-input {
     width: 100%;
-    /* margin-bottom: 1rem; */
-  }
-
-  .sub-heading {
-    font-size: 1.5rem;
   }
 }
