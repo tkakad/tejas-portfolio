@@ -18,8 +18,11 @@ p {
   text-align: justify;
 }
 
-.big-headers {
+h1 {
   font-family: 'Merriweather', serif;
+}
+
+.big-headers {
   margin-bottom: 2rem;
 }
 
@@ -50,6 +53,17 @@ p {
       color: #F8F0E5; /* Background color is used for text on hover to create a reverse effect */
       border-color: #F8F0E5; /* Using background color for border on hover for consistency */
   }
+}
+
+.card {
+  background-color: #F8F0E5;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
+.card-title {
+  font-weight: 900;
+  padding-bottom: 1rem;
 }
 
 .certification {
@@ -94,6 +108,12 @@ p {
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
+}
+
+.emp-img {
+  border-radius: 5px;
+  margin: auto;
+  width: 75%;
 }
 
 .footer-copyright {
@@ -160,18 +180,6 @@ p {
   margin: auto; /* Centers the form in the middle */
 }
 
-/* First and Last Name Inputs Side by Side */
-.name-group {
-  margin-bottom: 1rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: space-between;
-}
-
-.name-input {
-  margin-bottom: 0;
-}
-
 .heading {
   font-family: 'Merriweather', serif;
   font-size: 2rem;
@@ -179,24 +187,31 @@ p {
 }
 
 .images {
-  border-radius: 5px;
-  margin: auto;
-  width: 80%;
+  width: 65%;
 }
 
+.intro-img {
+  border-radius: 5px;
+  margin: auto;
+  width: 90%;
+}
+
+/* First and Last Name Inputs Side by Side */
 .name-group {
+  margin-bottom: 1rem;
   display: flex;
   flex-wrap: nowrap; /* By default, don't allow wrapping */
+  gap: 1rem;
   justify-content: space-between;
 }
 
 .name-input {
+  margin-bottom: 0;
   width: 48%;
 }
 
 .nav-container {
   padding-top: 2rem;
-  padding-left: 6rem;
 }
 
 .nav-link {
