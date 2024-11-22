@@ -55,6 +55,32 @@ h1 {
   }
 }
 
+.btn-github {
+  background-color: #EADBC8; /* Soft beige for better harmony with the section */
+  border: 2px solid #DAC0A3; /* Neutral border color */
+  border-radius: 20px; /* Rounded style */
+  color: #A08976; /* Light brown text for a very soft appearance */
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500; /* Balanced text weight */
+  padding: 15px 25px;
+  text-transform: none; /* Keeps text uncapitalized */
+  letter-spacing: 0.5px; /* Elegant spacing */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+.btn-github:hover,
+.btn-github:focus {
+  background-color: #DAC0A3; /* Slightly darker beige for hover effect */
+  color: #5C4033; /* Darker text on hover for clear contrast */
+  border-color: #C5A68D; /* Slightly darker border on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow on hover */
+  text-decoration: none; /* No underline on hover */
+}
+
 .card {
   background-color: #F8F0E5;
   border-radius: 10px;
