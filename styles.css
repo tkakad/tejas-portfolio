@@ -70,7 +70,7 @@ h1 {
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-  width: 13rem;
+  width: 200px;
 }
 
 .btn-github:hover,
@@ -333,13 +333,21 @@ h1 {
   width: 5rem;
 }
 
-@media (max-width: 576px) {  
+@media (max-width: 576px) {
+  .btn-github {
+    margin-bottom: 1rem;
+  }
+
   .card {
     padding: 1rem 0;
   }
 
   .col {
     padding: 0 2rem;
+  }
+
+  .project {
+    padding-bottom: 4rem;
   }
 }
 
