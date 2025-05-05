@@ -11,8 +11,8 @@ function updateFooterLinks() {
               link.innerHTML = '<i class="fa-brands fa-linkedin fa-xl"></i>';
           } else if (link.getAttribute('data-text') === 'GitHub') {
               link.innerHTML = '<i class="fa-brands fa-github fa-xl"></i>';
-          } else if (link.getAttribute('data-text') === 'Twitter') {
-              link.innerHTML = '<i class="fa-brands fa-twitter fa-xl"></i>';
+          } else if (link.getAttribute('data-text') === 'Upwork') {
+              link.innerHTML = '<i class="fa-brands fa-square-upwork fa-xl"></i>';
           } else if (link.getAttribute('data-text') === 'Resume') {
               link.innerHTML = '<i class="fa-solid fa-file fa-xl"></i>';
           }
