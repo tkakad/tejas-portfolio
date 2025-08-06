@@ -349,6 +349,10 @@ h1 {
   .project {
     padding-bottom: 4rem;
   }
+
+  .footer-links {
+    margin: auto 1.5rem;
+  }
 }
 
 @media (min-width: 992px) {  
@@ -400,5 +404,11 @@ h1 {
 
   .name-input {
     width: 100%;
+  }
+}
+
+@media (min-width: 991px) {
+  .footer-links {
+    margin: auto 4rem;
   }
 }

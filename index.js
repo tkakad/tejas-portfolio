@@ -6,7 +6,6 @@ function updateFooterLinks() {
           if (!link.hasAttribute('data-text')) {
               link.setAttribute('data-text', link.textContent);
           }
-          
           if (link.getAttribute('data-text') === 'LinkedIn') {
               link.innerHTML = '<i class="fa-brands fa-linkedin fa-xl"></i>';
           } else if (link.getAttribute('data-text') === 'GitHub') {
@@ -15,6 +14,8 @@ function updateFooterLinks() {
               link.innerHTML = '<i class="fa-brands fa-square-upwork fa-xl"></i>';
           } else if (link.getAttribute('data-text') === 'Resume') {
               link.innerHTML = '<i class="fa-solid fa-file fa-xl"></i>';
+          } else if (link.getAttribute('data-text') === 'Coursera') {
+              link.innerHTML = '<i class="fa-solid fa-award fa-xl"></i>';
           }
       });
   } else {
